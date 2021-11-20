@@ -1,0 +1,35 @@
+.calculator {
+    width: 300px;
+    margin: auto;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    background-color: black;
+    height: 80px;
+    color: white;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.btn {
+    height: 60px;
+    font-size: 1.5rem;
+    border: 1px solid #444;
+    border-top: none;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.clear {
+    display: grid;
+}
